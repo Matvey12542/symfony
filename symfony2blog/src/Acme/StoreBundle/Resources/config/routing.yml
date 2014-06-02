@@ -1,0 +1,12 @@
+
+
+store_create:
+    pattern:  /create/
+    defaults: { _controller: AcmeStoreBundle:Default:create }
+store_show:
+    pattern:  /show/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:show }
+
+store_update:
+    pattern:  /update/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:update }
