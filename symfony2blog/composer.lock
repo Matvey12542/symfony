@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "022f91220454fd8c1e337506bc552b3d",
+    "hash": "85197e837aaf77492ea56ca8422f9edd",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -119,7 +119,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -551,6 +551,67 @@
             "time": "2013-09-05 11:23:37"
         },
         {
+            "name": "doctrine/doctrine-migrations-bundle",
+            "version": "dev-master",
+            "target-dir": "Doctrine/Bundle/MigrationsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineMigrationsBundle.git",
+                "reference": "f7138381aa884c0f679da4de41e369b94ead9cd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/f7138381aa884c0f679da4de41e369b94ead9cd3",
+                "reference": "f7138381aa884c0f679da4de41e369b94ead9cd3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/migrations": "~1.0@dev",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Bundle\\MigrationsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Doctrine Project",
+                    "homepage": "http://www.doctrine-project.org"
+                }
+            ],
+            "description": "Symfony DoctrineMigrationsBundle",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "dbal",
+                "migrations",
+                "schema"
+            ],
+            "time": "2014-03-20 14:48:55"
+        },
+        {
             "name": "doctrine/inflector",
             "version": "v1.0",
             "source": {
@@ -667,17 +728,77 @@
             "time": "2013-01-12 18:59:04"
         },
         {
-            "name": "doctrine/orm",
-            "version": "2.3.5",
+            "name": "doctrine/migrations",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "2c31ec4809a28a549bf22d7cb7504add98156cd6"
+                "url": "https://github.com/doctrine/migrations.git",
+                "reference": "46a031ddaea47d0685200027cfe8c83b02aee6f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/2c31ec4809a28a549bf22d7cb7504add98156cd6",
-                "reference": "2c31ec4809a28a549bf22d7cb7504add98156cd6",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/46a031ddaea47d0685200027cfe8c83b02aee6f6",
+                "reference": "46a031ddaea47d0685200027cfe8c83b02aee6f6",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "symfony/console": "2.*",
+                "symfony/yaml": "2.*"
+            },
+            "suggest": {
+                "symfony/console": "to run the migration from the console"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\DBAL\\Migrations": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Database Schema migrations using Doctrine DBAL",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "migrations"
+            ],
+            "time": "2014-03-16 19:02:43"
+        },
+        {
+            "name": "doctrine/orm",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/doctrine2.git",
+                "reference": "c2135b38216c6c8a410e764792aa368e946f2ae5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/c2135b38216c6c8a410e764792aa368e946f2ae5",
+                "reference": "c2135b38216c6c8a410e764792aa368e946f2ae5",
                 "shasum": ""
             },
             "require": {
@@ -735,7 +856,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-02-08 16:28:24"
+            "time": "2014-06-03 19:53:45"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1302,16 +1423,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "92f4b49d2cd4f2537db7ef969231f3d43c8da957"
+                "reference": "1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/92f4b49d2cd4f2537db7ef969231f3d43c8da957",
-                "reference": "92f4b49d2cd4f2537db7ef969231f3d43c8da957",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f",
+                "reference": "1a894a16b6c15fcdc5ef2b110f0e6233952c9b0f",
                 "shasum": ""
             },
             "require": {
@@ -1355,7 +1476,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-06-07 12:56:52"
+            "time": "2014-06-07 16:22:57"
         },
         {
             "name": "psr/log",
@@ -2316,9 +2437,10 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "doctrine/migrations": 20,
+        "doctrine/doctrine-migrations-bundle": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
