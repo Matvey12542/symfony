@@ -7,6 +7,11 @@ use Acme\StoreBundle\Entity\Product;
 use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
+    public function indexAction() {
+
+        return new Response('Hello Fabien');
+    }
+
     public function createAction() {
         $product = new Product();
         $product->setName('A Foo Bar');

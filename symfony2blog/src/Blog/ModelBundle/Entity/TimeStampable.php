@@ -49,4 +49,4 @@ abstract class TimeStampable {
     {
         return $this->createAt;
     }
-} 
+}
