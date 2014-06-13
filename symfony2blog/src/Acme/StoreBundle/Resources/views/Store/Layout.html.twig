@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}My cool blog posts{% endblock %}
+
+{% block body %}
+    {% for product in produts %}
+        {% include 'AcmeStoreBundle:Product:Product.html.twig' with {'product': product} %}
+    {% endfor %}
+
+
+{% endblock %}

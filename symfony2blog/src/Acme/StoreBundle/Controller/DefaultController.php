@@ -9,7 +9,10 @@ class DefaultController extends Controller
 {
     public function indexAction() {
 
-        return new Response('Hello Fabien');
+        $products = $this->getDoctrine()
+            ->getRepository('AcmeStoreBundle:Product')
+            ->findAll();
+        return $this->render('AcmeStoreBundle:Store:Layout.html.twig', array('produts' => $products));
     }
 
     public function createAction() {
