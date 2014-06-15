@@ -1,3 +1,8 @@
-<h4>{{ product.name }}</h4>
-<p>{{ product.description }}</p>
-<p>{{ product.price }} UAN</p>
+<article>
+    <header>
+        <h2>{{ product.name }}</h2>
+    </header>
+    <p>{{ product.description | truncate(400) }}</p>
+    <p>{{ product.price }} UAN</p>
+    <a href="#">{{ 'read.more' | trans }}</a>
+</article>

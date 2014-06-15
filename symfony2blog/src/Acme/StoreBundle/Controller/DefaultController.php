@@ -12,7 +12,11 @@ class DefaultController extends Controller
         $products = $this->getDoctrine()
             ->getRepository('AcmeStoreBundle:Product')
             ->findAll();
-        return $this->render('AcmeStoreBundle:Store:Layout.html.twig', array('produts' => $products));
+        $latesProduct = $this->getDoctrine()
+            ->getRepository('AcmeStoreBundle:Product')
+            ->findLast(5);
+        return $this->render('AcmeStoreBundle:Store:AllProduct.html.twig', array('produts' => $products, 'last_products' => $latesProduct));
+//        return array('produts' => $products);
     }
 
     public function createAction() {

@@ -1,0 +1,31 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}My cool blog posts{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('bundles/acmestore/css/main.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block body %}
+    <header>
+        <p>Symfony 2 blog</p>
+        <nav>
+            <ul>
+                <li><a href="#">{{ 'home' | trans }}</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+{% block sidebar %} {% endblock %}
+
+    <section>
+        {% block section %} {% endblock %}
+    </section>
+
+
+
+<footer>
+    <p> {{ 'now' | date('Y') }}</p>
+</footer>
+{% endblock %}

@@ -9,10 +9,12 @@
 namespace Acme\StoreBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="product")
+ * @ORM\Entity(repositoryClass="Acme\StoreBundle\Repository\ProductRepository")
  */
 class Product {
 
@@ -26,6 +28,13 @@ class Product {
      * @ORM\Column(type="string", length=100)
      */
     protected $name;
+
+    /**
+     * @var string
+     * @Gedmo\Slug(fields={"name"}, unique=false)
+     * @ORM\Column(length=255)
+     */
+    private $slug;
     /**
      * @ORM\Column(type="decimal", scale=2)
      */
@@ -114,5 +123,28 @@ class Product {
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     * @return Product
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+    
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string 
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 }
