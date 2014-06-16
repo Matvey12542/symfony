@@ -19,6 +19,25 @@ class DefaultController extends Controller
 //        return array('produts' => $products);
     }
 
+    /**
+     * Show a post
+     *
+     * 1Route("/{slug}")
+     * 1Template()
+     */
+    public function showProductAction($slug) {
+        $product = $this->getDoctrine()->getRepository('AcmeStoreBundle:Product')->findOneBy(
+            array(
+                'slug' => $slug
+            )
+        );
+
+        if (null === $product) {
+            throw $this->createNotFoundException('Product not found');
+        }
+        return $this->render('AcmeStoreBundle:Store:showproduct.html.twig', array('product' => $product));
+    }
+
     public function createAction() {
         $product = new Product();
         $product->setName('A Foo Bar');

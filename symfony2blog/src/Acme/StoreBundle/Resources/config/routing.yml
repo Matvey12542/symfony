@@ -2,6 +2,9 @@
 store_index:
     pattern:  /
     defaults: { _controller: AcmeStoreBundle:Default:index }
+store_showproduct:
+    pattern:  /{slug}
+    defaults: { _controller: AcmeStoreBundle:Default:showproduct }
 store_create:
     pattern:  /create/
     defaults: { _controller: AcmeStoreBundle:Default:create }

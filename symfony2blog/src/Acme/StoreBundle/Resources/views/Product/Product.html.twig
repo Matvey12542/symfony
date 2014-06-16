@@ -1,8 +1,8 @@
 <article>
     <header>
-        <h2>{{ product.name }}</h2>
+        <h2><a href="{{ path('store_showproduct', {slug: product.slug}) }}"> {{ product.name }}</a></h2>
     </header>
-    <p>{{ product.description | truncate(400) }}</p>
+    <p class="desk">{{ product.description | truncate(400) }}</p>
     <p>{{ product.price }} UAN</p>
-    <a href="#">{{ 'read.more' | trans }}</a>
+    <a href="{{ path('store_showproduct', {slug: product.slug}) }}">{{ 'read.more' | trans }}</a>
 </article>

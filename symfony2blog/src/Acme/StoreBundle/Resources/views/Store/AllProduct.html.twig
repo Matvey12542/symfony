@@ -5,7 +5,7 @@
     <aside>
         <h3> {{ 'product.lattests' | trans }}</h3>
         {% for product in last_products %}
-            <p> <a href="#">{{ product.name }}</a></p>
+            <p> <a href="{{ path('store_showproduct', {slug: product.slug}) }}">{{ product.name }}</a></p>
         {% endfor %}
     </aside>
 {% endblock %}
