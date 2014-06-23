@@ -3,6 +3,7 @@
 namespace Blog\ModelBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 //use Symfony\Component\Validator\Constraint as Assert;
 
 /**
@@ -10,7 +11,9 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\Table()
  * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AcmeStoreBundle\Repository\AuthorRepository")
  */
+
 class Author extends TimeStampable
 {
     /**
@@ -30,13 +33,22 @@ class Author extends TimeStampable
      */
     private $name;
 
-    private $posts;
+    /**
+     * @Gedmo\Slug(fields={"name"}, unique=false)
+     * @ORM\Column(length=255)
+     *
+     */
+    private $slug;
 
     /**
      * @var ArrayCollection
      *
      * @ORM\OneToMany(targetEntity="Post", mappedBy="author", cascade={"remove"})
      */
+
+    private $posts;
+
+
 
     /**
      * Get id

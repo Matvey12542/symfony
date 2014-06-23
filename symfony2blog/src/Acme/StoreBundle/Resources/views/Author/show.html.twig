@@ -1,0 +1,16 @@
+{% extends "AcmeStoreBundle::Layout.html.twig" %}
+
+{% block title %}{{ 'post.by.author' | trans({'%name%': author.name}) }}{% endblock %}
+{% block sidebar %}
+    <aside>
+        <h3>{{ 'post.by' | trans }}</h3>
+
+        <p>{{ author.name }}</p>
+    </aside>
+{% endblock %}
+
+{% block section %}
+    {% for product in products %}
+        {% include 'AcmeStoreBundle:Product:Product.html.twig' with {'product': product} %}
+    {% endfor %}
+{% endblock %}

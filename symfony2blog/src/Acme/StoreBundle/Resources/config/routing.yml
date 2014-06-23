@@ -15,3 +15,7 @@ store_show:
 store_update:
     pattern:  /update/{id}
     defaults: { _controller: AcmeStoreBundle:Default:update }
+
+store_show_product:
+    pattern:  /show-product/{slug}
+    defaults: { _controller: AcmeStoreBundle:Author:show }

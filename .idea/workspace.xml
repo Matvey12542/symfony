@@ -23,10 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/DefaultController.php">
+      <file leaf-file-name="AuthorRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="964" selection-end="964" vertical-scroll-proportion="0.44212523" vertical-offset="325" max-vertical-offset="954">
+            <state line="15" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Author/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="28" selection-start="322" selection-end="322" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/AuthorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="65" selection-start="762" selection-end="762" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="792">
               <folding>
                 <element signature="e#47#104#0" expanded="true" />
               </folding>
@@ -34,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/config/routing.yml">
+      <file leaf-file-name="ProductRepository.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/ProductRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="269" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="34" column="25" selection-start="751" selection-end="751" vertical-scroll-proportion="0.47325477" vertical-offset="0" max-vertical-offset="1103">
               <folding />
             </state>
           </provider>
@@ -59,25 +77,29 @@
         <option value="$PROJECT_DIR$/symfony2blog/app/config/config.yml" />
         <option value="$PROJECT_DIR$/symfony2blog/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/TimeStampable.php" />
-        <option value="$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php" />
         <option value="$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Post.php" />
         <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Entity/Product.php" />
-        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Layout.html.twig" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Author/show.html.twig" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php" />
+        <option value="$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/AuthorController.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <option name="servers">
-      <server host="localhost" name="localhost" />
+      <server host="localhost" name="localhost" port="8000" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
+    <option name="x" value="1919" />
     <option name="y" value="52" />
-    <option name="width" value="855" />
-    <option name="height" value="715" />
+    <option name="width" value="1026" />
+    <option name="height" value="1285" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -179,6 +201,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -213,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,11 +343,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="symfony2blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,28 +386,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drupal81" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="1a8af8c6-b495-4d18-9316-6134249af96d">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+  <component name="RunManager" selected="PHP Web Application.bu">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -290,7 +403,21 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="false" name="bu" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/show-product/product1">
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.bu" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -302,31 +429,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="52" width="855" height="715" extended-state="0" />
+    <frame x="1919" y="52" width="1026" height="1285" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4295302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26081583" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4295302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2760736" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -337,14 +469,98 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Post.php">
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="2430">
+        <state line="20" column="30" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="684">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="19" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="2790">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="684">
+          <folding>
+            <element signature="e#47#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="12" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="2790">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/app/DoctrineMigrations/Version20140616142323.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="12" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="2790">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/app/DoctrineMigrations/Version20140616142323.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="269" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="2430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/app/AppKernel.php">
@@ -374,73 +590,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.740038" vertical-offset="1878" max-vertical-offset="2430">
-          <folding />
-        </state>
+        <state line="126" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.740038" vertical-offset="1878" max-vertical-offset="2430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/TimeStampable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="641" selection-end="641" vertical-scroll-proportion="0.23333333" vertical-offset="396" max-vertical-offset="936">
-          <folding />
-        </state>
+        <state line="34" column="7" selection-start="641" selection-end="641" vertical-scroll-proportion="0.23333333" vertical-offset="396" max-vertical-offset="936" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/CoreBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.34749034" vertical-offset="0" max-vertical-offset="518">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.34749034" vertical-offset="0" max-vertical-offset="518" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/app/config/routing_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.5228216" vertical-offset="0" max-vertical-offset="482">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.5228216" vertical-offset="0" max-vertical-offset="482" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="519">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="519" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2320442" vertical-offset="0" max-vertical-offset="543">
+        <state line="7" column="27" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2320442" vertical-offset="0" max-vertical-offset="543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-8.222222" vertical-offset="1110" max-vertical-offset="2124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Store/showproduct.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="98" selection-start="206" selection-end="206" vertical-scroll-proportion="0.066055045" vertical-offset="0" max-vertical-offset="1090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/app/DoctrineMigrations/Version20140616142323.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Tests/Controller/AuthorControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Product/Product.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Default/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="139" selection-end="276" vertical-scroll-proportion="0.10140845" vertical-offset="0" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/views/Author/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="322" selection-end="322" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/src/Blog/ModelBundle/Entity/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="149" selection-end="149" vertical-scroll-proportion="0.30740038" vertical-offset="0" max-vertical-offset="1440">
-          <folding />
+        <state line="13" column="37" selection-start="307" selection-end="307" vertical-scroll-proportion="0.21706864" vertical-offset="0" max-vertical-offset="2790">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Entity/Product.php">
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="5" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-8.222222" vertical-offset="1110" max-vertical-offset="2124">
+        <state line="28" column="45" selection-start="893" selection-end="893" vertical-scroll-proportion="0.29816514" vertical-offset="143" max-vertical-offset="1476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="269" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="20" column="24" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/DefaultController.php">
+    <entry file="file:///usr/share/phpmyadmin/sql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="964" selection-end="964" vertical-scroll-proportion="0.44212523" vertical-offset="325" max-vertical-offset="954">
+        <state line="11" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.3294509" vertical-offset="0" max-vertical-offset="18324">
+          <folding>
+            <marker date="1366806615000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1366806615000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/phpmyadmin/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.3294509" vertical-offset="0" max-vertical-offset="11178">
+          <folding>
+            <marker date="1366806615000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/phpmyadmin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.3327787" vertical-offset="16" max-vertical-offset="3114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/AuthorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Controller/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="65" selection-start="762" selection-end="762" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="792">
           <folding>
             <element signature="e#47#104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony2blog/src/Acme/StoreBundle/Repository/ProductRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="751" selection-end="751" vertical-scroll-proportion="0.47325477" vertical-offset="0" max-vertical-offset="1103">
+          <folding />
         </state>
       </provider>
     </entry>
